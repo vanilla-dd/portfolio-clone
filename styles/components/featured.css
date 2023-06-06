@@ -1,0 +1,118 @@
+.featured__subtitle {
+  font-size: var(--size-sm);
+  color: var(--clr-accent);
+  text-transform: capitalize;
+  font-weight: bold;
+}
+.featured__title {
+  font-size: var(--size-2xl);
+  color: var(--clr-light);
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.featured__wrapper {
+  display: flex;
+  gap: 0.25rem;
+  align-items: center;
+}
+.featured__link {
+  width: var(--size-2xl);
+  aspect-ratio: 1;
+}
+.featured__desc {
+  max-width: 60ch;
+  color: var(--clr-slate600);
+  font-size: var(--size-sm);
+  margin-block: 1rem;
+}
+.featured__label {
+  font-size: var(--size-base);
+  text-transform: capitalize;
+  margin-bottom: 0.25em;
+}
+.featured__tech-stack {
+  list-style: none;
+}
+.featured__info {
+  font-size: var(--size-sm);
+  color: var(--clr-slate600);
+  text-transform: capitalize;
+}
+.featured__info-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.featured__info-container > div {
+  flex: 1;
+  min-width: 200px;
+}
+/* xs*/
+@media (width>475px) {
+  .features__title {
+    font-size: var(--size-3xl);
+  }
+  .featured__subtitle {
+    font-size: var(--size-base);
+  }
+  .featured__link {
+    width: var(--size-3xl);
+    aspect-ratio: 1;
+  }
+  .featured__desc {
+    font-size: var(--size-base);
+    margin-block: 1.5rem;
+  }
+  .featured__label {
+    font-size: var(--size-lg);
+  }
+  .featured__info {
+    font-size: var(--size-base);
+  }
+}
+/* lg */
+@media (width>1024px) {
+  .features__title {
+    font-size: var(--size-4xl);
+  }
+  .featured__subtitle {
+    font-size: var(--size-lg);
+  }
+  .featured__link {
+    width: var(--size-4xl);
+    aspect-ratio: 1;
+  }
+  .featured__desc {
+    font-size: var(--size-lg);
+  }
+  .featured__label {
+    font-size: var(--size-xl);
+  }
+  .featured__info {
+    font-size: var(--size-lg);
+  }
+}
+
+/* xl */
+@media (width>1280px) {
+  .features__title {
+    font-size: var(--size-5xl);
+  }
+  .featured__subtitle {
+    font-size: var(--size-xl);
+  }
+  .featured__link {
+    width: var(--size-5xl);
+    aspect-ratio: 1;
+  }
+  .featured__desc {
+    font-size: var(--size-xl);
+    margin-block: 2rem;
+  }
+  .featured__label {
+    font-size: var(--size-2xl);
+  }
+  .featured__info {
+    font-size: var(--size-xl);
+  }
+}

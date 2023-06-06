@@ -16,13 +16,14 @@
   color: var(--clr-slate800);
   font-size: var(size--base);
   line-height: 0.9;
+  font-weight: bold;
 }
 .hero__title {
   color: var(--clr-slate400);
   text-transform: uppercase;
   font-size: var(--size-4xl);
   line-height: 0.9;
-  font-weight: 600;
+  font-weight: bold;
   letter-spacing: -0.05em;
 }
 .hero__desc {
