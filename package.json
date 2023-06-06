@@ -9,6 +9,10 @@
     "preview": "vite preview"
   },
   "devDependencies": {
+    "prettier": "^2.8.8",
     "vite": "^4.2.0"
+  },
+  "dependencies": {
+    "save-dev": "^0.0.1-security"
   }
 }
