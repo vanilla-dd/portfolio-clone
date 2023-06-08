@@ -2,6 +2,7 @@ const mobileNav = () => {
   const bars = document.querySelector(".header__hamburger");
   const mobNav = document.querySelector(".mobile-nav");
   const mobLinks = document.querySelectorAll(".mobile-nav__link");
+  // state
   let isOpen = false;
   bars.addEventListener("click", () => {
     isOpen = !isOpen;

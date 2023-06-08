@@ -21,7 +21,7 @@ strong {
   padding: 0.5em 1em;
   border-radius: 0.375rem;
   background-color: var(--clr-rose);
-  color: var(--clr-light);
+  color: #f1f5f9;
   box-shadow: 0 10px 20px rgba(225 29 72 /0.5), 0 6px 6px rgba(225 29 72 /0.5),
     0 0 100px -10px var(--clr-rose);
   transition: transform 0.3s, box-shadow 0.3s;
@@ -39,6 +39,13 @@ strong {
 }
 .section {
   margin-top: 5rem;
+}
+.loading {
+  filter: blur(40px) grayscale(100%);
+}
+.loaded {
+  filter: blur(0px) grayscale(0%);
+  transition: 0.5s ease-in-out;
 }
 /* xs */
 @media (width>475px) {
