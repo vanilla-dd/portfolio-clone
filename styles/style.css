@@ -43,3 +43,17 @@ button {
   background: none;
   cursor: pointer;
 }
+/* scroll bar */
+::-webkit-scrollbar {
+  width: 12px;
+}
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--clr-rose);
+  outline: 1px solid var(--clr-rose);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #ff0000;
+}
