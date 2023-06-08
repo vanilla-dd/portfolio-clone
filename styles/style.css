@@ -7,6 +7,10 @@
   --clr-slate800: #1e293b;
   --clr-accent: #4f46e5;
   --clr-rose: #e11d48;
+  /* simple color */
+  --clr-twitter: #00acee;
+  --clr-discord: #7289d9;
+  --clr-github: black;
   /* sizes */
   --size-xxs: 0.5rem;
   --size-xs: 0.75rem;

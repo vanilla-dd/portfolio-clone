@@ -1,9 +1,90 @@
+body:not([class="light-mode"]) {
+  --clr-twitter: #00b7ff;
+  --clr-discord: #ffffff;
+  --clr-github: rgb(255, 255, 255);
+}
 .footer__title {
-  font-size: var(-size-xs);
-  font-weight: 400;
+  font-size: var(--size-sm);
+  font-weight: 700;
   color: var(--clr-slate600);
   letter-spacing: 0.2em;
   user-select: none;
   text-transform: uppercase;
-  text-align: center;
 }
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.socials {
+  display: flex;
+  gap: 1rem;
+}
+i {
+  font-size: 1.5rem;
+}
+.fa-github {
+  color: var(--clr-github);
+}
+.fa-twitter {
+  color: var(--clr-twitter);
+}
+.fa-discord {
+  color: var(--clr-discord);
+}
+/* hover */
+i {
+  transition: scale 0.5s;
+}
+i:hover {
+  scale: 1.2;
+}
+/* xs */
+@media (width>475px) {
+  i {
+    font-size: 1.875rem;
+  }
+  .footer__title {
+    font-size: var(--size-lg);
+  }
+}
+/* sm */
+@media (width>640px) {
+  i {
+    font-size: 2rem;
+  }
+}
+/* lg */
+@media (width>768px) {
+  .socials {
+    gap: 1.5rem;
+  }
+}
+/* xl */
+@media (width>1024px) {
+  .socials {
+    gap: 2rem;
+  }
+}
+/* 2xl */
+@media (width>1536px) {
+  .socials {
+    gap: 2.5rem;
+  }
+  i {
+    font-size: 2.25rem;
+  }
+  .footer__title {
+    font-size: var(--size-xl);
+  }
+}
+
+/*
+
+@media (width>1280px) {i {
+    font-size: 1.75rem;
+  }
+}
+
+} */

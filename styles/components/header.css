@@ -40,8 +40,8 @@
   .header__sun {
     display: block;
     color: var(--clr-slate600);
-    height: var(--size-base);
-    width: var(--size-base);
+    height: var(--size-lg);
+    width: var(--size-lg);
   }
   .header__resume {
     font-size: var(--size-xs);
