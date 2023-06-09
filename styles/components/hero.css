@@ -11,15 +11,16 @@
   width: 6rem;
   border-radius: 50%;
   aspect-ratio: 1;
+  object-fit: cover;
 }
 .hero__subtitle {
-  color: var(--clr-slate800);
+  color: var(--clr-slate400);
   font-size: var(size--base);
   line-height: 0.9;
   font-weight: bold;
 }
 .hero__title {
-  color: var(--clr-slate400);
+  color: var(--clr-slate600);
   text-transform: uppercase;
   font-size: var(--size-4xl);
   line-height: 0.9;
@@ -30,6 +31,7 @@
   max-width: 60ch;
   font-size: var(--size-sm);
   color: var(--clr-slate600);
+  font-weight: 500;
 }
 .hero__btn {
   text-transform: capitalize;
