@@ -112,7 +112,7 @@
     font-size: var(--size-lg);
   }
   .featured__link {
-    width: var(--size-4xl);
+    width: var(--size-3xl);
     aspect-ratio: 1;
   }
   .featured__desc {
@@ -139,7 +139,7 @@
     font-size: var(--size-xl);
   }
   .featured__link {
-    width: var(--size-5xl);
+    width: var(--size-4xl);
     aspect-ratio: 1;
   }
   .featured__desc {
