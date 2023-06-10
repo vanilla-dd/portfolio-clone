@@ -57,7 +57,7 @@ strong {
 /* sm */
 @media (width>640px) {
   .container {
-    max-width: 475px;
+    max-width: 640px;
   }
 }
 /* md */
