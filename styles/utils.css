@@ -39,7 +39,7 @@ strong {
   padding-inline: 0.5rem;
 }
 .section {
-  margin-top: 5rem;
+  margin-top: 4rem;
 }
 .loading {
   filter: blur(40px) grayscale(100%);
