@@ -8,6 +8,7 @@
 }
 .work__desc {
   max-width: 60ch;
+  font-weight: 500;
   font-size: var(--size-sm);
   color: var(--clr-slate600);
 
